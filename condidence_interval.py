@@ -3,7 +3,7 @@ from scipy.stats import sem, t
 from scipy import mean
 confidence = 0.95
 
-dataSet = readCSV('test.csv')
+dataSet = readCSV('data.csv')
 
 def confidenceInterval(dataSet):
         n = len(dataSet)
