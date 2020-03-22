@@ -9,5 +9,5 @@ def sample_standardDeviation(dataSet):
 
     return std
 
-dataSet = [1,2,3,4,5,6,7,8,9,10]
+#dataSet = [1,2,3,4,5,6,7,8,9,10]
 print (sample_standardDeviation(dataSet))
