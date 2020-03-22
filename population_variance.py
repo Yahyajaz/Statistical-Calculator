@@ -1,7 +1,7 @@
 from FileReader import readCSV
 import math
 
-dataSet = readCSV('test.csv')
+dataSet = readCSV('data.csv')
 
 def population_variance(dataSet):
     if len(dataSet) == 0:
