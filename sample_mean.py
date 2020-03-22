@@ -1,7 +1,7 @@
 from FileReader import readCSV
 import math
 
-dataSet = readCSV('test.csv', nrows = 10)
+dataSet = readCSV('data.csv', nrows = 10)
 
 
 def sampleMean(dataSet):
