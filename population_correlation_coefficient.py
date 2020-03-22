@@ -1,7 +1,7 @@
 from FileReader import readCSV
 import numpy
 
-dataSet = readCSV('test.csv')
+dataSet = readCSV('data.csv')
 
 def population_corelation_coefficient(dataSet):
     if len(dataSet) == 0:
