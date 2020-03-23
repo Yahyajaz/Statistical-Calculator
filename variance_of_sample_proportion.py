@@ -3,7 +3,7 @@ import math
 
 dataset = readCSV('data.csv')
 
-def variance_of_sample_proportion(dataset):
+def VSP(dataset):
     if len(dataSet) == 0:
         result = 0
 
@@ -20,4 +20,4 @@ def variance_of_sample_proportion(dataset):
     return cal_variance
 
 #dataSet = [1,2,3,4,5,6,7,8,9,10]
-print (variance_of_sample_proportion(dataSet))
+print (VSP(dataSet))
