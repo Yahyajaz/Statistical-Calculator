@@ -3,7 +3,7 @@ import math
 
 dataSet = readCSV('data.csv')
 
-def variance(dataSet):
+def pop_variance(dataSet):
     if len(dataSet) == 0:
         return 0
     
