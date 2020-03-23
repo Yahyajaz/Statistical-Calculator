@@ -3,7 +3,7 @@ import math
 
 dataSet = readCSV('data.csv')
 
-def population_variance(dataSet):
+def variance(dataSet):
     if len(dataSet) == 0:
         return 0
     
